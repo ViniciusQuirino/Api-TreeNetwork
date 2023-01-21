@@ -7,10 +7,16 @@ class InterestsPost {
   @PrimaryGeneratedColumn('uuid')
     id: string;
 
-  @ManyToOne(() => Interest, (interest) => interest.interestsPost)
+  @ManyToOne(() => Interest, (interest) => interest.interestsPost, {
+    cascade: true,
+    onDelete: 'CASCADE',
+  })
     interest: Interest;
 
-  @ManyToOne(() => Post, (post) => post.interestsPost)
+  @ManyToOne(() => Post, (post) => post.interestsPost, {
+    cascade: true,
+    onDelete: 'CASCADE',
+  })
     post: Post;
 }
 
