@@ -6,7 +6,7 @@ Este é o backend da aplicação m4-pf-node-pablo-14 - Rede Social - Uma API des
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte **[Documentaçâo](https://m4-pf-node-pablo-14.github.io/Doc-Api-TreeNetwork/)** para saber como ultilizar a API
+Consulte **[Documentaçâo](https://viniciusquirino.github.io/Doc-Api-TreeNetwork/)** para saber como ultilizar a API
 
 ### 📋 Pré-requisitos
 
